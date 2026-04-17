@@ -1,0 +1,7 @@
+---
+type: specs.openrewrite.org/v1beta/style
+name: abc.no-star-imports
+styleConfigs:
+  - org.openrewrite.java.style.ImportLayoutStyle:
+      classCountToUseStarImport: 999
+      nameCountToUseStarImport: 999
