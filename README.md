@@ -17,9 +17,7 @@ actually causes the configured style to be honored by recipes like `OrderImports
 
 ## Prerequisites
 
-- Moderne CLI 4.1.3 or later (for the configured-style fix in CLI #3658 to be
-  present and for the CLI to pick up `moderne-ast-write` 3.3.0+ with #449).
-  `mod --version` to check.
+- Moderne CLI 4.1.3 or later. `mod --version` to check.
 
 ## Test A — no configured style → imports collapse (the problem)
 
